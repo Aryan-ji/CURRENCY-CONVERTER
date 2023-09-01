@@ -42,4 +42,4 @@ If you have any feedback, please reach out to us at [aryanak9163@gmail.com](mail
 
 ## Support
 
-For support, [email](mailto:aryan.official.cse@gmail.com) or join our [Slack channel]([https://www.github.com/aryan-ji](https://join.slack.com/t/devs-jv17807/shared_invite/zt-22fopfu7q-3AmlAvRk4NW8JuXELCYGuw)https://join.slack.com/t/devs-jv17807/shared_invite/zt-22fopfu7q-3AmlAvRk4NW8JuXELCYGuw).
+For support, [email](mailto:aryan.official.cse@gmail.com) or join our [Slack channel](https://join.slack.com/t/devs-jv17807/shared_invite/zt-22fopfu7q-3AmlAvRk4NW8JuXELCYGuw).

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter - Convert Your Currency</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/">
+          <div class="logo">MyCurrencyConverter</div>
+        </a>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/services">Services</a></li>
+          <li><a href="/about">About Us</a></li>
+          <li><a href="/contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="container">
+        <h1>Convert Your Currency</h1>
+        <form action="" method="get">
+          <label for="amount">Choose a amount : </label>
+
+          <input
+            type="number"
+            name="amount"
+            id="amount"
+            minlength="1"
+            maxlength="3"
+            required
+          />
+
+          <label for="currency">Choose a currency : </label>
+          <select name="currency" id="currency">
+            <optgroup label="Currency">
+              <option value="">--Please Choose a currency--</option>
+              <option value="INR">Indian Rupee</option>
+              <option value="USD">US Dollar</option>
+              <option value="EUR">Euro</option>
+            </optgroup>
+          </select>
+          <button id="btn" type="submit">Submit</button>
+        </form>
+        <section class="result">
+          <h2>Currency Table</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Country</th>
+                <th>Currency</th>
+                <th>value</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">Copyright &copy; All rights reserved</div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>

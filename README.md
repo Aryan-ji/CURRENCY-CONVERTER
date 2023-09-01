@@ -23,7 +23,9 @@ Javascript, HTML, CSS...
 
 ## Demo
 
-Insert gif or link to demo
+- /snap-1.png
+- /snap-2.png
+- [1[live demo](https://currency-converter-fawn-ten.vercel.app/)]
 
 ## Author
 

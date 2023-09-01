@@ -23,7 +23,7 @@ Javascript, HTML, CSS...
 
 ## Demo
 
-- [![live demo](https://currency-converter-fawn-ten.vercel.app/)]
+- [[live demo](https://currency-converter-fawn-ten.vercel.app/)]
 
 ## Author
 

@@ -148,18 +148,21 @@ button {
     cursor: pointer;
     transition: all ease-in-out .5s;
     width: fit-content;
+    box-shadow: #000000 2px 2px 6px;
 }
 
 button:hover {
     background: blue;
+    box-shadow: gray 2px 2px 6px;
+
 }
 
 button:focus {
     outline: none;
-}                       
+}
 
 .result {
-    display: none   ;
+    display: none;
 }
 
 .result h2 {
@@ -212,4 +215,56 @@ td {
 .result table th {
     background-color: #333;
     color: white;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        background: gold;
+    }
+
+    nav .logo {
+        font-size: 1.75rem;
+    }
+
+    nav ul {
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+        font-size: 0.75rem;
+    }
+
+    nav ul li a {
+        font-size: 0.75rem;
+    }
+
+    section.container h1 {
+        font-size: 1.75rem;
+        color: rgb(37, 215, 58);
+        text-align: center;
+    }
+
+    section.container form {
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+    }
+
+    section.container form input,
+    select {
+        width: 95vw;
+    }
+
+    section.result h2 {
+        font-size: 1.85rem;
+    }
 }
